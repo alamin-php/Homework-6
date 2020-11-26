@@ -11,7 +11,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-:root{
+
+:root {
     --primary-color: #33d2fd;
     --secondary-color: #233148;
 }
@@ -40,7 +41,7 @@ h1 {
     color: #ffffff;
 }
 
-p{
+p {
     color: #6a6d89;
     font-size: 1.4rem;
 }
@@ -63,7 +64,7 @@ section {
     padding: 8rem 0;
 }
 
-a{
+a {
     color: var(--secondary-color);
     text-decoration: none;
 }
@@ -88,18 +89,18 @@ h2::after {
     margin-top: 2rem;
 }
 
-h3{
+h3 {
     font-size: 2.4rem;
     text-transform: uppercase;
     font-weight: 600;
     color: var(--secondary-color);
 }
 
-.box{
+.box {
     padding: 1%;
 }
 
-.box p{
+.box p {
     font-size: 1.6rem;
     font-weight: 300;
     margin-top: 2rem;
@@ -115,17 +116,20 @@ h3{
     background: var(--secondary-color);
     border-bottom: 1px solid #000;
     color: #ffffff;
-    padding: 1.5rem 6rem;
+    padding: 1.5rem 4rem;
     text-decoration: none;
     text-transform: uppercase;
-    border-radius: 0.3rem;
+    border-radius: 0.5rem;
     display: inline-block;
     margin-top: 4.5rem;
     font-size: 1.6rem;
+    cursor: pointer;
 }
 
+
 /* PARAGRAPH */
-.little-description{
+
+.little-description {
     font-size: 1.8rem;
     width: 60%;
     margin-left: 20%;
@@ -134,37 +138,116 @@ h3{
 
 
 /*=============================*/
+
+
 /* HEADER SECTION  */
+
+
 /*=============================*/
-header{
- background: var(--primary-color);
+
+header {
+    background: url(img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
 }
+
 
 /* Navigation area css styles */
 
-header .nav-area{
+header .nav-area {
     width: 100%;
 }
-header .nav-area .logo-area{}
-header .nav-area .logo-area .logo{
+
+header .nav-area .logo-area {}
+
+header .nav-area .logo-area .logo {
     padding: 6rem 0;
 }
 
-header .nav-area .menu-area{}
+header .nav-area .menu-area {}
+
 header .nav-area .menu-area ul {
     text-align: right;
 }
+
 header .nav-area .menu-area ul li {
     display: inline-block;
     padding: 6rem 0 6rem 6rem;
 }
+
 header .nav-area .menu-area ul li a {
-    color: rgba(255,255,255,1.0);
+    color: rgba(255, 255, 255, 1.0);
     font-weight: 600;
     transition: 0.3s;
-
 }
-header .nav-area .menu-area ul li a:hover{
+
+header .nav-area .menu-area ul li a:hover {
     color: var(--secondary-color)
 }
 
+
+/* Hero area css styles */
+
+header .hero-area {
+    text-align: center;
+}
+
+header .hero-area .hero-text {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+header .hero-area .hero-text h1 {
+    font-weight: 700;
+    font-size: 4.5rem;
+}
+
+header .hero-area .hero-text p {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 1.0);
+}
+
+header .hero-area .hero-text .btn-area {
+    margin-bottom: 7rem;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+header .hero-area .hero-text .btn-download {
+    background: rgba(255, 255, 255, 1.0);
+    color: var(--secondary-color);
+    outline: 0;
+    border: 0;
+    margin-right: 2.5rem;
+    border: 0.1rem solid rgba(255, 255, 255, 1.0);
+    transition: 0.3s;
+}
+
+header .hero-area .hero-text .btn-download:hover {
+    background: var(--secondary-color);
+    border: .1rem solid var(--secondary-color);
+    color: var(--primary-color);
+}
+
+header .hero-area .hero-text .btn-contact {
+    background: none;
+    color: rgba(255, 255, 255, 1.0);
+    outline: 0;
+    border: 0.1rem solid rgba(255, 255, 255, 1.0);
+    transition: 0.3s;
+}
+
+header .hero-area .hero-text .btn-contact:hover {
+    background: rgba(255, 255, 255, 1.0);
+    color: var(--secondary-color);
+}
+
+header .hero-area .hero-phone {}
+
+header .hero-area .hero-phone .smartphone {
+    width: 25.6rem;
+    height: auto;
+}

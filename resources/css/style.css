@@ -63,7 +63,10 @@ section {
     padding: 8rem 0;
 }
 
-a{color: #ffffff;}
+a{
+    color: var(--secondary-color);
+    text-decoration: none;
+}
 
 h2 {
     font-size: 4rem;
@@ -109,7 +112,7 @@ h3{
 .btn:link,
 .btn:visited,
 .btn {
-    background: #333333;
+    background: var(--secondary-color);
     border-bottom: 1px solid #000;
     color: #ffffff;
     padding: 1.5rem 6rem;
@@ -131,12 +134,37 @@ h3{
 
 
 /*=============================*/
-
-
-/* HERO SECTION  */
-
-
+/* HEADER SECTION  */
 /*=============================*/
+header{
+ background: var(--primary-color);
+}
 
+/* Navigation area css styles */
 
+header .nav-area{
+    width: 100%;
+}
+header .nav-area .logo-area{}
+header .nav-area .logo-area .logo{
+    padding: 6rem 0;
+}
+
+header .nav-area .menu-area{}
+header .nav-area .menu-area ul {
+    text-align: right;
+}
+header .nav-area .menu-area ul li {
+    display: inline-block;
+    padding: 6rem 0 6rem 6rem;
+}
+header .nav-area .menu-area ul li a {
+    color: rgba(255,255,255,1.0);
+    font-weight: 600;
+    transition: 0.3s;
+
+}
+header .nav-area .menu-area ul li a:hover{
+    color: var(--secondary-color)
+}
 

@@ -351,6 +351,10 @@ header .hero-area .hero-phone .smartphone {
     background: var(--primary-color);
     border: none;
     outline: none;
+    transition: 0.5s;
+}
+.marketing-2-area .info-area .btn-download:hover{
+    background: #1bbeea;
 }
 .marketing-2-area .menu-area{padding-left: 5rem;}
 .marketing-2-area .menu-area ul{}
@@ -362,5 +366,12 @@ header .hero-area .hero-phone .smartphone {
     border-radius: 5px;
     color: var(--secondary-color);
     cursor: pointer;
+    transition: 0.5s;
 }
 .marketing-2-area .menu-area ul li a{}
+.marketing-2-area .menu-area ul li img{ padding-right: 1rem;}
+.marketing-2-area .menu-area ul li p{padding-left: 3rem;display: block;}
+.marketing-2-area .menu-area ul li:hover{background: var(--primary-color);padding: 3rem 2rem;color: #ffff;}
+
+/* Marketing area-3 css*/
+.marketing-3-area{background: #fafafc}

@@ -154,6 +154,8 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
+    margin-bottom: -30rem;
+    overflow: hidden;
 }
 
 
@@ -255,15 +257,20 @@ header .hero-area .hero-phone .smartphone {
     width: 25.6rem;
     height: auto;
 }
-
+/* ABOUT SECTION CSS STYLE  */
+.about{
+    /* /* -moz-backface-visibility: hidden; */
+    backface-visibility: hidden; */
+}
 
 /* Marketing area css styles */
 .marketing-1-area {
     margin-bottom: 10rem;
-    background: url(img/marketing1-bg.jpg);
-    background-repeat: no-repeat;
-    background-position: center top;
+    background: url(img/about-bg.png) no-repeat;
     background-size: cover;
+    background-position: center top;
+    height: 80vh;
+
 }
 
 .marketing-1-area .smartphone-area {

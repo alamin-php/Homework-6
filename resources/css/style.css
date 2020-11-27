@@ -265,12 +265,12 @@ header .hero-area .hero-phone .smartphone {
 
 /* Marketing area css styles */
 .marketing-1-area {
-    margin-bottom: 10rem;
-    background: url(img/about-bg.png) no-repeat;
-    background-size: cover;
-    background-position: center top;
-    height: 80vh;
-
+	margin-bottom: 10rem;
+	background: url(img/about-bg.png) no-repeat;
+	background-size: cover;
+	background-position: center top;
+	position: relative;
+	padding: 220px;
 }
 
 .marketing-1-area .smartphone-area {

@@ -265,19 +265,20 @@ header .hero-area .hero-phone .smartphone {
 
 /* Marketing area css styles */
 .marketing-1-area {
-	margin-bottom: 10rem;
 	background: url(img/about-bg.png) no-repeat;
 	background-size: cover;
 	background-position: center top;
 	position: relative;
-	padding: 220px;
+	padding-top: 220px;
 }
 
 .marketing-1-area .smartphone-area {
     width: 25%;
 }
 
-.marketing-1-area .smartphone-area .smartphone {}
+.marketing-1-area .smartphone-area .smartphone {
+    padding-bottom: 120px;
+}
 
 .marketing-1-area .add-area {
     width: 70%;
@@ -329,3 +330,37 @@ header .hero-area .hero-phone .smartphone {
 .marketing-1-area .add-area .box .icon {
     padding: 2rem;
 }
+
+/* Marketing area-2 css*/
+.marketing-2-area{
+    background-color: white;
+    height: 80vh;
+}
+.marketing-2-area{
+}
+.marketing-2-area .info-area{
+    text-align: right;
+    padding-right: 5rem;
+}
+.marketing-2-area .info-area h2{
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.marketing-2-area .info-area .btn-download{
+    background: var(--primary-color);
+    border: none;
+    outline: none;
+}
+.marketing-2-area .menu-area{padding-left: 5rem;}
+.marketing-2-area .menu-area ul{}
+.marketing-2-area .menu-area ul li{
+    padding: 2rem 1.5rem;
+    background: #ffff;
+    margin: 10px 0;
+    box-shadow: .0rem .5rem .5rem .1rem #ddd;
+    border-radius: 5px;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+.marketing-2-area .menu-area ul li a{}

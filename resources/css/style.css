@@ -76,17 +76,6 @@ h2 {
     margin-top: 0;
     margin-bottom: 2rem;
     color: var(--secondary-color);
-    text-align: center;
-}
-
-h2::after {
-    content: "";
-    display: block;
-    height: .4rem;
-    background: #ffffff;
-    width: 8.6rem;
-    margin: 0 auto;
-    margin-top: 2rem;
 }
 
 h3 {
@@ -257,19 +246,25 @@ header .hero-area .hero-phone .smartphone {
     width: 25.6rem;
     height: auto;
 }
+
+
 /* ABOUT SECTION CSS STYLE  */
-.about{
+
+.about {
     /* /* -moz-backface-visibility: hidden; */
-    backface-visibility: hidden; */
+    backface-visibility: hidden;
+    */
 }
 
+
 /* Marketing area css styles */
+
 .marketing-1-area {
-	background: url(img/about-bg.png) no-repeat;
-	background-size: cover;
-	background-position: center top;
-	position: relative;
-	padding-top: 220px;
+    background: url(img/about-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+    padding-top: 220px;
 }
 
 .marketing-1-area .smartphone-area {
@@ -296,69 +291,81 @@ header .hero-area .hero-phone .smartphone {
 }
 
 .marketing-1-area .add-area .box {
-	width: 33%;
-	float: left;
-	text-align: center;
-	padding: 2rem;
-	border-radius: 0.5rem;
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 0.5rem;
     box-shadow: 0px 2px 5px 2px #c1c1c1c1;
     background: #ffffff;
 }
 
 .marketing-1-area .add-area .add1 {
-	position: absolute;
-	left: 15.4rem;
+    position: absolute;
+    left: 15.4rem;
 }
 
 .marketing-1-area .add-area .add2 {
-	position: absolute;
-	right: 3rem;
-	top: 10rem;
+    position: absolute;
+    right: 3rem;
+    top: 10rem;
 }
 
 .marketing-1-area .add-area .add3 {
-	position: absolute;
-	left: 5rem;
-	top: 32rem;
-} 
+    position: absolute;
+    left: 5rem;
+    top: 32rem;
+}
+
 .marketing-1-area .add-area .add4 {
-	position: absolute;
-	right: 13.5rem;
-	top: 40rem;
+    position: absolute;
+    right: 13.5rem;
+    top: 40rem;
 }
 
 .marketing-1-area .add-area .box .icon {
     padding: 2rem;
 }
 
+
 /* Marketing area-2 css*/
-.marketing-2-area{
+
+.marketing-2-area {
     background-color: white;
     height: 80vh;
 }
-.marketing-2-area{
-}
-.marketing-2-area .info-area{
+
+.marketing-2-area {}
+
+.marketing-2-area .info-area {
     text-align: right;
     padding-right: 5rem;
 }
-.marketing-2-area .info-area h2{
+
+.marketing-2-area .info-area h2 {
     text-align: right;
     font-size: 3rem;
     font-weight: 500;
 }
-.marketing-2-area .info-area .btn-download{
+
+.marketing-2-area .info-area .btn-download {
     background: var(--primary-color);
     border: none;
     outline: none;
     transition: 0.5s;
 }
-.marketing-2-area .info-area .btn-download:hover{
+
+.marketing-2-area .info-area .btn-download:hover {
     background: #1bbeea;
 }
-.marketing-2-area .menu-area{padding-left: 5rem;}
-.marketing-2-area .menu-area ul{}
-.marketing-2-area .menu-area ul li{
+
+.marketing-2-area .menu-area {
+    padding-left: 5rem;
+}
+
+.marketing-2-area .menu-area ul {}
+
+.marketing-2-area .menu-area ul li {
     padding: 2rem 1.5rem;
     background: #ffff;
     margin: 10px 0;
@@ -368,10 +375,58 @@ header .hero-area .hero-phone .smartphone {
     cursor: pointer;
     transition: 0.5s;
 }
-.marketing-2-area .menu-area ul li a{}
-.marketing-2-area .menu-area ul li img{ padding-right: 1rem;}
-.marketing-2-area .menu-area ul li p{padding-left: 3rem;display: block;}
-.marketing-2-area .menu-area ul li:hover{background: var(--primary-color);padding: 3rem 2rem;color: #ffff;}
+
+.marketing-2-area .menu-area ul li a {}
+
+.marketing-2-area .menu-area ul li img {
+    padding-right: 1rem;
+}
+
+.marketing-2-area .menu-area ul li p {
+    padding-left: 3rem;
+    display: block;
+}
+
+.marketing-2-area .menu-area ul li:hover {
+    background: var(--primary-color);
+    padding: 3rem 2rem;
+    color: #ffff;
+}
+
 
 /* Marketing area-3 css*/
-.marketing-3-area{background: #fafafc}
+
+.marketing-3-area {
+    background: hsl(240, 25%, 98%)
+}
+
+.marketing-3-area .code-area {}
+
+.marketing-3-area .info-area {
+    text-align: left;
+    padding-left: 3rem;
+}
+
+.marketing-3-area .info-area h2 {
+    text-align: left;
+    font-size: 3rem;
+}
+
+.marketing-3-area .info-area p {
+    line-height: 2.5rem;
+    margin-top: 4rem;
+}
+
+.marketing-3-area .info-area span {
+    display: block;
+    margin: 2rem 0;
+}
+
+.marketing-3-area .info-area span i {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    padding: .5rem;
+    border-radius: 50%;
+    margin-right: .5rem;
+    font-size: 1.2rem;
+}

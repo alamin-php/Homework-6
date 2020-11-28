@@ -1,6 +1,6 @@
  /* Extra small devices (phones, 600px and down) */
  
- @media only screen and (max-width: 600px) {
+ /* @media only screen and (min-width:200px) and (max-width: 991px) {
      .row {
          margin: 0 15px;
      }
@@ -181,61 +181,37 @@
     .footer-area .social ul li a i {
         font-size: 3rem;
     }
- }
+ } */
  /* Small devices (portrait tablets and large phones, 600px and up) */
  
  @media only screen and (min-width: 600px) {
-    .row {
-        margin: 0 15px;
-    }
-    html {
-        font-size: 52.5%;
-    }
-    section {
-        padding: 0;
-    }
-    .col {
-        float: none;
-        margin: 0;
-    }
-    .span_1_of_2 {
-        width: 0;
-    }
-    header .nav-area .logo-area .logo {
-        padding: 1.5rem 0;
-    }
-    header .nav-area .logo-area {
-        width: 30%;
-        float: left;
-    }
-    header .nav-area .menu-area {
-        width: 70%;
-        float: left;
-    }
-    header .nav-area .menu-area ul li {
-        padding: 1.5rem;
-        text-align: center;
-    }
-    header .nav-area .menu-area ul {
-        text-align: center;
-        margin-top: 1rem;
-    }
-    header .nav-area .menu-area ul li a {
-        font-size: 2rem;
-    }
-    header .hero-area .hero-text {
-        width: 80%;
-    }
-    .marketing-1-area .smartphone-area {
-        display: none;
-    }
+   
  }
  /* Medium devices (landscape tablets, 768px and up) */
  
- @media only screen and (min-width: 768px) {}
  /* Large devices (laptops/desktops, 992px and up) */
  
- @media only screen and (min-width: 992px) {}
- /* Extra large devices (large laptops and desktops, 1200px and up) */
  
- @media only screen and (max-width: 1200px) {}
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (max-width: 1200px) {
+     .row {
+         margin: 0 25px;
+    }
+    header .nav-area .logo-area {
+        width: 30%;
+    }
+    header .nav-area .logo-area .logo {
+        padding: 2rem 0;
+    }
+    header .nav-area .menu-area ul li {
+        padding: 3rem 0 0rem 3rem;
+    }
+    header .nav-area .menu-area ul {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 768px) {
+    body{
+        
+    }
+}

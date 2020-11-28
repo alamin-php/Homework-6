@@ -1,0 +1,147 @@
+ /* Extra small devices (phones, 600px and down) */
+ 
+ @media only screen and (max-width: 600px) {
+     .row {
+         margin: 0 15px;
+     }
+     html {
+         font-size: 50.5%;
+     }
+     section {
+         padding: 0;
+     }
+     .col {
+         float: none;
+         margin: 0;
+     }
+     .logo-area {
+         width: 100%;
+         text-align: center;
+     }
+     header .nav-area .logo-area .logo {
+         padding: 2rem 0;
+     }
+     header .nav-area .menu-area {
+         width: 100%;
+     }
+     header .nav-area .menu-area ul {
+         text-align: center;
+     }
+     header .nav-area .menu-area ul li {
+         padding: 10px;
+     }
+     header .nav-area .menu-area ul li:first-child {
+         padding-left: 0px;
+     }
+     header .nav-area .menu-area ul li:last-child {
+         padding-right: 0px;
+     }
+     header .hero-area .hero-text {
+         width: 100%;
+     }
+     header .hero-area .hero-text h1 {
+         font-size: 3.5rem;
+         margin: 1.5rem 0;
+     }
+     .btn:link,
+     .btn:visited,
+     .btn {
+         display: block;
+         margin-top: 1.5rem;
+         font-size: 1.6rem;
+         width: 100%;
+     }
+     header .hero-area .hero-text .btn-area {
+         margin: 4rem auto;
+     }
+     .marketing-1-area {
+         padding-top: 170px;
+     }
+     .marketing-1-area .smartphone-area {
+         width: 100%;
+         text-align: center;
+         display: none;
+     }
+     .marketing-1-area .smartphone-area .smartphone {
+         padding-bottom: 40px;
+     }
+     .marketing-1-area .add-area {
+         width: 100%;
+         position: static;
+     }
+     .marketing-1-area .add-area .box {
+         width: 100%;
+         float: none;
+         text-align: center;
+         margin: 10px 0;
+     }
+     .marketing-1-area .add-area .add1 {
+         position: static;
+     }
+     .marketing-1-area .add-area .add2 {
+         position: static;
+     }
+     .marketing-1-area .add-area .add3 {
+         position: static;
+     }
+     .marketing-1-area .add-area .add4 {
+         position: static;
+     }
+     h1,
+     h2,
+     h3 {
+         text-align: center;
+     }
+     .marketing-2-area .info-area {
+         text-align: center;
+         padding-right: 0;
+         margin: 20px auto;
+     }
+     .marketing-2-area .info-area h2 {
+         text-align: center;
+     }
+     .btn:link,
+     .btn:visited,
+     .btn {
+         margin: 20px auto;
+     }
+     .marketing-2-area .menu-area {
+         padding: 0;
+     }
+     .marketing-3-area .code-area .code-image {
+         width: 100%;
+         margin: 20px auto;
+     }
+     .marketing-3-area .info-area {
+         text-align: center;
+     }
+     .marketing-3-area .info-area h2 {
+         text-align: center;
+     }
+     .marketing-3-area .info-area span {
+         display: inline-block;
+         margin: 0 5px;
+     }
+     .marketing-3-area .info-area p {
+         line-height: 2.5rem;
+         margin: 30px;
+     }
+     .app-area .phone-area {
+         display: none;
+     }
+     .app-area .info-area .text-area {
+         margin: 15px auto;
+     }
+ }
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ 
+ @media only screen and (min-width: 600px) {}
+ /* Medium devices (landscape tablets, 768px and up) */
+ 
+ @media only screen and (min-width: 768px) {}
+ /* Large devices (laptops/desktops, 992px and up) */
+ 
+ @media only screen and (min-width: 992px) {}
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ 
+ @media only screen and (max-width: 1200px) {}

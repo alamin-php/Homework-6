@@ -142,8 +142,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;
-    margin-bottom: -30rem;
-    overflow: hidden;
+    margin-bottom: -40rem;
 }
 
 
@@ -302,6 +301,7 @@ header .hero-area .hero-phone .smartphone {
 .marketing-1-area .add-area .add1 {
     position: absolute;
     left: 15.4rem;
+    top: 5.5rem;
 }
 
 .marketing-1-area .add-area .add2 {
@@ -313,13 +313,13 @@ header .hero-area .hero-phone .smartphone {
 .marketing-1-area .add-area .add3 {
     position: absolute;
     left: 5rem;
-    top: 32rem;
+    top: 36rem;
 }
 
 .marketing-1-area .add-area .add4 {
     position: absolute;
     right: 13.5rem;
-    top: 40rem;
+    top: 43rem;
 }
 
 .marketing-1-area .add-area .box .icon {

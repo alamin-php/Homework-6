@@ -532,6 +532,11 @@ header .hero-area .hero-phone .smartphone {
 .info-area ul li a {
     color: #6a6d89;
     font-size: 1.4rem;
+    transition: 0.3s;
+}
+
+.info-area ul li a:hover {
+    color: var(--primary-color);
 }
 
 

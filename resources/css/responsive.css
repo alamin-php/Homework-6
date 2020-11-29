@@ -1,354 +1,361 @@
  /* Extra large devices (large laptops and desktops, 1200px and up) */
+ 
  @media only screen and (max-width: 1200px) {
      .row {
          margin: 0 25px;
-    }
-    header .nav-area .logo-area {
-        width: 30%;
-    }
-    header .nav-area .logo-area .logo {
-        padding: 2rem 0;
-    }
-    header .nav-area .menu-area ul li {
-        padding: 3rem 0 0rem 3rem;
-    }
-    header .nav-area .menu-area ul {
-        text-align: center;
-    }
+     }
+     header .nav-area .logo-area {
+         width: 30%;
+     }
+     header .nav-area .logo-area .logo {
+         padding: 2rem 0;
+     }
+     header .nav-area .menu-area ul li {
+         padding: 3rem 0 0rem 3rem;
+     }
+     header .nav-area .menu-area ul {
+         text-align: center;
+     }
  }
-
  /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {
-    .row {
-        margin: 0 15px;
-    }
-    html {
-        font-size: 55.5%;
-    }
-    section {
-        padding: 0;
-    }
-    .code-image {
-        width: 100%;
-    }
-    .subscribe-area form {
-        margin-top: 0rem;
-        margin-bottom: 5rem;
-    }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
-    .row {
-        margin: 0 15px;
-    }
-    .col {
-        display: block;
-        float: left;
-        margin: 0;
-    }
-    html {
-        font-size: 52.5%;
-    }
-    section {
-        padding: 0;
-    }
-    header .hero-area .hero-text {
-        width: 80%;
-    }
-    .marketing-1-area .smartphone-area {
-        display: none;
-    }
-    .marketing-1-area .add-area {
-        width: 100%;
-        position: relative;
-    }
-    .marketing-1-area .add-area .add1,.marketing-1-area .add-area .add2,.marketing-1-area .add-area .add3,.marketing-1-area .add-area .add4 {
-        position: static;
-        width: 48%;
-        margin-right: 3%;
-        margin-top: 3%;
-    }
-    .box.add2.mr-0 {
-        margin-right: 0;
-    }
-    .box.add4.mr-0 {
-        margin-right: 0;
-    }
-    .marketing-1-area {
-        padding-top: 120px;
-    }
-    .marketing-2-area {
-        margin: 50px 0;
-    }
-    .marketing-2-area .info-area {
-        padding-right: 0;
-        width: 100%;
-        text-align: center;
-    }
-    .marketing-2-area .info-area h2{
-        text-align: center;
-    }
-    .marketing-2-area .menu-area {
-        padding: 0;
-        width: 100%;
-        margin-top: 30px;
-    }
-    .marketing-2-area .menu-area ul li {
-        padding: 10px;
-    }
-    .marketing-2-area .menu-area ul li:hover {
-        padding: 10px;
-    }
-    .marketing-3-area .code-area {
-        width: 100%;
-    }
-    .marketing-3-area .info-area {
-        text-align: center;
-        padding-left: 0;
-        width: 100%;
-        margin: 20px 0;
-    }
-    .marketing-3-area .info-area h2 {
-        text-align: center;
-    }
-    .marketing-3-area .info-area span {
-        display: inline-block;
-        margin: 0 10px;
-    }
-    .marketing-3-area .info-area p {
-        margin-top: 2rem;
-    }
-    .app-area .phone-area .smartphone {
-        display: none;
-    }
-    .app-area .info-area .text-area {
-        margin-top: 0;
-        margin: 10px auto;
-    }
-    .app-area .info-area {
-        width: 100%;
-        text-align: center;
-    }
-    .get-app {
-        display: none;
-    }
-    .info {
-        width: 100%;
-        float: left;
-        text-align: center;
-        margin: 5px 0;
-        padding: 10px 0;
-        box-shadow: 0px 2px 5px 2px #c1c1c1c1;
-    }
-    .info-area h3 {
-        font-size: 2rem;
-        margin-bottom: 1rem;
-    }
-    .info-area ul li a {
-        font-size: 1.8rem;
-    }
-    .subscribe-area {
-        padding: 20px 0;
-    }
-    .subscribe-area form {
-        margin-top: 2rem;
-        margin-bottom: 1rem;
-    }
-
-    .subscribe-area form input[type="email"] {
-        width: 100%;
-    }
-    .subscribe-area form input[type="submit"] {
-        width: 50%;
-    }
-
-    
-}
-
-  /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .row {
-        margin: 0 15px;
-    }
-    html {
-        font-size: 50.5%;
-    }
-    section {
-        padding: 0;
-    }
-    .col {
-        float: none;
-        margin: 0;
-    }
-    .logo-area {
-        width: 100%;
-        text-align: center;
-    }
-    header .nav-area .logo-area .logo {
-        padding: 2rem 0;
-    }
-    header .nav-area .menu-area {
-        width: 100%;
-    }
-    header .nav-area .menu-area ul {
-        text-align: center;
-    }
-    header .nav-area .menu-area ul li {
-        padding: 10px;
-    }
-    header .nav-area .menu-area ul li:first-child {
-        padding-left: 0px;
-    }
-    header .nav-area .menu-area ul li:last-child {
-        padding-right: 0px;
-    }
-    header .hero-area .hero-text {
-        width: 100%;
-    }
-    header .hero-area .hero-text h1 {
-        font-size: 3.5rem;
-        margin: 1.5rem 0;
-    }
-    .btn:link,
-    .btn:visited,
-    .btn {
-        display: block;
-        margin-top: 1.5rem;
-        font-size: 1.6rem;
-        width: 100%;
-    }
-    header .hero-area .hero-text .btn-area {
-        margin: 4rem auto;
-    }
-    .marketing-1-area {
-        padding-top: 170px;
-    }
-    .marketing-1-area .smartphone-area {
-        width: 100%;
-        text-align: center;
-        display: none;
-    }
-    .marketing-1-area .smartphone-area .smartphone {
-        padding-bottom: 40px;
-    }
-    .marketing-1-area .add-area {
-        width: 100%;
-        position: static;
-    }
-    .marketing-1-area .add-area .box {
-        width: 100%;
-        float: none;
-        text-align: center;
-        margin: 10px 0;
-    }
-    .marketing-1-area .add-area .add1 {
-        position: static;
-    }
-    .marketing-1-area .add-area .add2 {
-        position: static;
-    }
-    .marketing-1-area .add-area .add3 {
-        position: static;
-    }
-    .marketing-1-area .add-area .add4 {
-        position: static;
-    }
-    h1,
-    h2,
-    h3 {
-        text-align: center;
-    }
-    .marketing-2-area .info-area {
-        text-align: center;
-        padding-right: 0;
-        margin: 20px auto;
-    }
-    .marketing-2-area .info-area h2 {
-        text-align: center;
-    }
-    .btn:link,
-    .btn:visited,
-    .btn {
-        margin: 20px auto;
-    }
-    .marketing-2-area .menu-area {
-        padding: 0;
-    }
-    .marketing-3-area .code-area .code-image {
-        width: 100%;
-        margin: 20px auto;
-    }
-    .marketing-3-area .info-area {
-        text-align: center;
-    }
-    .marketing-3-area .info-area h2 {
-        text-align: center;
-    }
-    .marketing-3-area .info-area span {
-        display: inline-block;
-        margin: 0 5px;
-    }
-    .marketing-3-area .info-area p {
-        line-height: 2.5rem;
-        margin: 30px;
-    }
-    .app-area .phone-area {
-        display: none;
-    }
-    .app-area .info-area .text-area {
-        margin: 15px auto;
-    }
-    .get-app {
-       position: static;
-       margin: 0;
-   }
-   .info-area {
-       text-align: center;
-   }
-   .info {
-       border: 1px solid #ddd;
-       margin: 10px 0;
-       padding: 10px;
-       box-shadow: 0px 2px 5px 2px #c1c1c1c1;
-       border-radius: 0.5rem;
-   }
-   .info-area h3 {
-       font-size: 2.5rem;
-       margin-bottom: 1rem;
-   }
-   .info-area ul li a {
-       font-size: 2rem;
-   }
-   .subscribe-area {
-       margin: 20px auto;
-   }
-   .subscribe-area form {
-       margin: 0;
-   }
-   .subscribe-area form input[type="email"] {
-       width: 100%;
-       margin-top: 20px;
-   }
-   .subscribe-area form input[type="submit"] {
-       width: 50%;
-   }
-   .col.span_1_of_2.copyright {
-       text-align: center;
-       margin-bottom: 20px;
-       width: 100%;
-   }
-   .col.span_1_of_2.copyright p{
-       font-size: 2rem;
-   }
-   .footer-area .social ul {
-       text-align: center;
-       margin-top: 30px;
-   }
-   .footer-area .social ul li a i {
-       font-size: 3rem;
-   }
-}
-
-
-
+ 
+ @media only screen and (max-width: 992px) {
+     .row {
+         margin: 0 15px;
+     }
+     html {
+         font-size: 55.5%;
+     }
+     section {
+         padding: 0;
+     }
+     .code-image {
+         width: 100%;
+     }
+     .subscribe-area form {
+         margin-top: 0rem;
+         margin-bottom: 5rem;
+     }
+ }
+ /* Medium devices (landscape tablets, 768px and up) */
+ 
+ @media only screen and (max-width: 768px) {
+     .row {
+         margin: 0 15px;
+     }
+     .col {
+         display: block;
+         float: left;
+         margin: 0;
+     }
+     header .nav-area .logo-area {
+         width: 100%;
+     }
+     html {
+         font-size: 52.5%;
+     }
+     section {
+         padding: 0;
+     }
+     header .hero-area .hero-text {
+         width: 80%;
+     }
+     .marketing-1-area .smartphone-area {
+         display: none;
+     }
+     .marketing-1-area .add-area {
+         width: 100%;
+         position: relative;
+     }
+     .marketing-1-area .add-area .add1,
+     .marketing-1-area .add-area .add2,
+     .marketing-1-area .add-area .add3,
+     .marketing-1-area .add-area .add4 {
+         position: static;
+         width: 48%;
+         margin-right: 3%;
+         margin-top: 3%;
+     }
+     .box.add2.mr-0 {
+         margin-right: 0;
+     }
+     .box.add4.mr-0 {
+         margin-right: 0;
+     }
+     .marketing-1-area {
+         padding-top: 120px;
+     }
+     .marketing-2-area {
+         margin: 50px 0;
+     }
+     .marketing-2-area .info-area {
+         padding-right: 0;
+         width: 100%;
+         text-align: center;
+     }
+     .marketing-2-area .info-area h2 {
+         text-align: center;
+     }
+     .marketing-2-area .menu-area {
+         padding: 0;
+         width: 100%;
+         margin-top: 30px;
+     }
+     .marketing-2-area .menu-area ul li {
+         padding: 10px;
+     }
+     .marketing-2-area .menu-area ul li:hover {
+         padding: 10px;
+     }
+     .marketing-3-area .code-area {
+         width: 100%;
+     }
+     .marketing-3-area .info-area {
+         text-align: center;
+         padding-left: 0;
+         width: 100%;
+         margin: 20px 0;
+     }
+     .marketing-3-area .info-area h2 {
+         text-align: center;
+     }
+     .marketing-3-area .info-area span {
+         display: inline-block;
+         margin: 0 10px;
+     }
+     .marketing-3-area .info-area p {
+         margin-top: 2rem;
+     }
+     .app-area .phone-area .smartphone {
+         display: none;
+     }
+     .app-area .info-area .text-area {
+         margin-top: 0;
+         margin: 10px auto;
+     }
+     .app-area .info-area {
+         width: 100%;
+         text-align: center;
+     }
+     .get-app {
+         display: none;
+     }
+     .info {
+         width: 48%;
+         float: left;
+         text-align: center;
+         margin: 14px 14px auto auto;
+         padding: 10px 0;
+         box-shadow: 0px 2px 5px 2px #c1c1c1c1;
+         height: 160px;
+     }
+     .info-area h3 {
+         font-size: 2rem;
+         margin-bottom: 1rem;
+     }
+     .info-area ul li a {
+         font-size: 1.8rem;
+         transition: 0.3s;
+     }
+     .info-area ul li a:hover {
+         color: var(--primary-color);
+     }
+     .subscribe-area {
+         padding: 20px 0;
+     }
+     .subscribe-area form {
+         margin-top: 2rem;
+         margin-bottom: 1rem;
+     }
+     .subscribe-area form input[type="email"] {
+         width: 100%;
+     }
+     .subscribe-area form input[type="submit"] {
+         width: 50%;
+     }
+ }
+ /* Extra small devices (phones, 600px and down) */
+ 
+ @media only screen and (max-width: 600px) {
+     .row {
+         margin: 0 15px;
+     }
+     html {
+         font-size: 50.5%;
+     }
+     section {
+         padding: 0;
+     }
+     .col {
+         float: none;
+         margin: 0;
+     }
+     .logo-area {
+         width: 100%;
+         text-align: center;
+     }
+     header .nav-area .logo-area .logo {
+         padding: 2rem 0;
+     }
+     header .nav-area .menu-area {
+         width: 100%;
+     }
+     header .nav-area .menu-area ul {
+         text-align: center;
+     }
+     header .nav-area .menu-area ul li {
+         padding: 10px;
+     }
+     header .nav-area .menu-area ul li:first-child {
+         padding-left: 0px;
+     }
+     header .nav-area .menu-area ul li:last-child {
+         padding-right: 0px;
+     }
+     header .hero-area .hero-text {
+         width: 100%;
+     }
+     header .hero-area .hero-text h1 {
+         font-size: 3.5rem;
+         margin: 1.5rem 0;
+     }
+     .btn:link,
+     .btn:visited,
+     .btn {
+         display: block;
+         margin-top: 1.5rem;
+         font-size: 1.6rem;
+         width: 100%;
+     }
+     header .hero-area .hero-text .btn-area {
+         margin: 4rem auto;
+     }
+     .marketing-1-area {
+         padding-top: 170px;
+     }
+     .marketing-1-area .smartphone-area {
+         width: 100%;
+         text-align: center;
+         display: none;
+     }
+     .marketing-1-area .smartphone-area .smartphone {
+         padding-bottom: 40px;
+     }
+     .marketing-1-area .add-area {
+         width: 100%;
+         position: static;
+     }
+     .marketing-1-area .add-area .box {
+         width: 100%;
+         float: none;
+         text-align: center;
+         margin: 10px 0;
+     }
+     .marketing-1-area .add-area .add1 {
+         position: static;
+     }
+     .marketing-1-area .add-area .add2 {
+         position: static;
+     }
+     .marketing-1-area .add-area .add3 {
+         position: static;
+     }
+     .marketing-1-area .add-area .add4 {
+         position: static;
+     }
+     h1,
+     h2,
+     h3 {
+         text-align: center;
+     }
+     .marketing-2-area .info-area {
+         text-align: center;
+         padding-right: 0;
+         margin: 20px auto;
+     }
+     .marketing-2-area .info-area h2 {
+         text-align: center;
+     }
+     .btn:link,
+     .btn:visited,
+     .btn {
+         margin: 20px auto;
+     }
+     .marketing-2-area .menu-area {
+         padding: 0;
+     }
+     .marketing-3-area .code-area .code-image {
+         width: 100%;
+         margin: 20px auto;
+     }
+     .marketing-3-area .info-area {
+         text-align: center;
+     }
+     .marketing-3-area .info-area h2 {
+         text-align: center;
+     }
+     .marketing-3-area .info-area span {
+         display: inline-block;
+         margin: 0 5px;
+     }
+     .marketing-3-area .info-area p {
+         line-height: 2.5rem;
+         margin: 30px;
+     }
+     .app-area .phone-area {
+         display: none;
+     }
+     .app-area .info-area .text-area {
+         margin: 15px auto;
+     }
+     .get-app {
+         position: static;
+         margin: 0;
+     }
+     .info-area {
+         text-align: center;
+     }
+     .info {
+         border: 1px solid #ddd;
+         margin: 10px 0;
+         padding: 10px;
+         box-shadow: 0px 2px 5px 2px #c1c1c1c1;
+         border-radius: 0.5rem;
+         width: 100%;
+     }
+     .info-area h3 {
+         font-size: 2.5rem;
+         margin-bottom: 1rem;
+     }
+     .info-area ul li a {
+         font-size: 2rem;
+     }
+     .subscribe-area {
+         margin: 20px auto;
+     }
+     .subscribe-area form {
+         margin: 0;
+     }
+     .subscribe-area form input[type="email"] {
+         width: 100%;
+         margin-top: 20px;
+     }
+     .subscribe-area form input[type="submit"] {
+         width: 50%;
+     }
+     .col.span_1_of_2.copyright {
+         text-align: center;
+         margin-bottom: 20px;
+         width: 100%;
+     }
+     .col.span_1_of_2.copyright p {
+         font-size: 2rem;
+     }
+     .footer-area .social ul {
+         text-align: center;
+         margin-top: 30px;
+     }
+     .footer-area .social ul li a i {
+         font-size: 3rem;
+     }
+ }
